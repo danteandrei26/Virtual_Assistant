@@ -31,4 +31,4 @@ class SearcherWeather(webBrowser):
         statusBox.click()
 
         weather = f"The temperature is about {temperatureBox.text}°C, the weather is most likely {statusBox.text}"
-        return weather
+        return weather, self.closeBrowser()
