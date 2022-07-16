@@ -36,6 +36,12 @@ def importModulesKnowledge(listOfModules):
 
 
 def interpretAudio(text):
+    """
+    This method is used to interpret text and send it as audio output.
+    For the test environment it will send it as a print to console.
+    :param text:
+    :return:
+    """
     if type(text) is not None:
         for key in allCommandsDict.keys():
             if key in text:
