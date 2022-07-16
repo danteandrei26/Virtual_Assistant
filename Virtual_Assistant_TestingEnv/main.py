@@ -39,7 +39,7 @@ def interpretAudio(text):
     """
     This method is used to interpret text and send it as audio output.
     For the test environment it will send it as a print to console.
-    :param text:
+    :param text: str command
     :return:
     """
     if type(text) is not None:
